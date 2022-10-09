@@ -61,7 +61,7 @@ echo "Prepare to use"
 unzip v2ray.zip && chmod +x v2ray
 mv v2ray /usr/bin/
 mv geosite.dat geoip.dat /usr/local/share/v2ray/
-mv cert.pem key.pem /etc/v2ray/
+#mv cert.pem key.pem /etc/v2ray/
 mv config2.json /etc/v2ray/config.json
 
 # Clean
