@@ -32,8 +32,8 @@ fi
 # Download files
 V2RAY_FILE="v2ray-linux-${ARCH}.zip"
 DGST_FILE="v2ray-linux-${ARCH}.zip.dgst"
-echo "Downloading binary file: ${TAG} ${V2RAY_FILE}"
-echo "Downloading binary file: ${TAG} ${DGST_FILE}"
+echo "Downloading binary file: --${TAG}-- ${V2RAY_FILE}"
+echo "Downloading binary file: --${TAG}-- ${DGST_FILE}"
 #https://github.com/v2fly/v2ray-core/releases/download/v5.1.0/v2ray-linux-64.zip
 wget -O ${PWD}/v2ray.zip https://github.com/v2fly/v2ray-core/releases/download/${TAG}/${V2RAY_FILE} > /dev/null 2>&1
 wget -O ${PWD}/v2ray.zip.dgst https://github.com/v2fly/v2ray-core/releases/download/${TAG}/${DGST_FILE} > /dev/null 2>&1
