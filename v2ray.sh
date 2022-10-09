@@ -65,5 +65,5 @@ mv cert.pem key.pem /etc/v2ray/
 mv config2.json /etc/v2ray/config.json
 
 # Clean
-#rm -rf ${PWD}/*
+rm -rf ${PWD}/*
 echo "Done"
